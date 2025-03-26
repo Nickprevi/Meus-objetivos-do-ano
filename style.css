@@ -1,7 +1,7 @@
 :root{
-    --cor-de-fundo:#000000;
+    --cor-de-fundo:#faf7f7;
 --verde:#7e11bd;
---branco:#ffffff; 
+--branco:#1d0505; 
 --botao-ativo:#fe0404; 
 --texto-fundo:#413758;
 }
@@ -19,7 +19,7 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-.titulo.titulo.principal{
+.titulo.principal{
     text-align: center;
     width:100%;
     font-size: 32px;
@@ -27,7 +27,13 @@ body{
 }
 .botao{
     font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: #fe0404;    
-color: #413758;
+background-color: #7cb4ce;    
+color: #0b0616;
+display: flex;
+justify-content: center;
+padding: 1 em;
+font-size: 18px;
+align-items: center;
+width: 100%;
 
-}
+}  
